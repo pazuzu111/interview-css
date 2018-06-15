@@ -1,7 +1,21 @@
 
 
 /* --- YOUR CODE STARTS HERE --- */
+.left {
+  float: left;
+}
 
+#header {
+    background: lightgray;
+    padding: 12px;
+    width: 65.8%;
+    border: 1px solid lightgrey;
+    margin: 0 auto;
+
+}
+.right {
+  float: right;
+}
 
 
 
