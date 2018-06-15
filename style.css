@@ -5,6 +5,11 @@
   float: left;
 }
 
+.right {
+  float: right;
+}
+
+/*----------HEADER1------------------*/
 #header {
     background: lightgray;
     padding: 12px;
@@ -13,10 +18,8 @@
     margin: 0 auto;
 
 }
-.right {
-  float: right;
-}
 
+/*----------HEADER2------------------*/
 #header2 {
    background: white;
     padding: 13px;
@@ -27,6 +30,7 @@
     display: flex;
 }
 
+/*profile name*/
 #username {
       margin-top: -7px;
     margin-left: 7px;
@@ -50,22 +54,44 @@ span p {
     text-align: right;
 }
 
+
+/*content under image
+*/
 #content {
    background: white;
     padding: 13px;
     width: 65.8%;
+    height: 100px;
+    overflow: auto;
     border: .5px solid lightgrey;
-    margin: 0 auto;
+    margin: -3px 14.5% auto;
     text-align: left;
   }
 
+  /*status*/
+#status {
+  line-height: unset;
+  font-weight: unset;
+  margin-top: 5px;
+}
+
+h5 {
+      margin-top: 15px;
+      margin-bottom: unset;
+}
+
+/*icon space helpers
+*/
 .iconSpace {
   padding-right: 10px;
 }
-#status {
-  line-height: unset;
+
+.iconFooter {
+  padding-right: 43px;
 }
 
+
+/*footer*/
 #footer {
     background: lightgray;
     padding: 12px;
